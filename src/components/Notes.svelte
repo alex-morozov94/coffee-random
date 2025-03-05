@@ -12,7 +12,10 @@
   </div>
   
   <style lang="less">
-    @import "../variables.less"; 
+    :root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
 
     .notes-container {
       width: 100%;
@@ -29,7 +32,7 @@
   
     .tag {
       display: inline-block;
-      background: @main-color;
+      background: var(--main-color);
       color: white;
       padding: 5px 10px;
       border-radius: 20px;

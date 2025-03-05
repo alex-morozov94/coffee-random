@@ -19,8 +19,6 @@
   </div>
   
   <style lang="less">
-    @import "../variables.less";
-
     h2 {
       margin-bottom: 10px;
     }
@@ -29,8 +27,8 @@
       max-width: 320px;
       margin: 0 auto 40px auto;
       padding: 20px;
-      border-radius: @br-1;
-      background: @secondary-color;
+      border-radius: var(--br-1);
+      background: var(--secondary-color);
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       color: #333;

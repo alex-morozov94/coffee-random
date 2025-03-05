@@ -21,3 +21,9 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+
+:root {
+  --main-color: #6b4e37;
+  --secondary-color: #fff3e0;
+  --br-1: 10px;
+}

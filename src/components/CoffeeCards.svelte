@@ -95,8 +95,6 @@
 </div>
 
 <style lang="less">
-  @import "../variables.less"; 
-
   .container {
     text-align: center;
     padding: 20px;

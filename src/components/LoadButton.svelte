@@ -7,16 +7,15 @@
   </button>
   
   <style lang="less">
-    @import "../variables.less"; 
 
     .load-button {
       padding: 20px 10px;
       font-size: 16px;
       font-weight: bold;
       color: white;
-      background: @main-color;
+      background: var(--main-color);
       border: none;
-      border-radius: @br-1;
+      border-radius: var(--br-1);
       cursor: pointer;
       transition: background 0.3s ease, transform 0.1s ease;
       position: relative;
@@ -24,7 +23,7 @@
       min-width: 180px;
   
       &:hover {
-        background: darken(@main-color, 10%);
+        transform: scale(0.99);
       }
   
       &:active {
